@@ -1,0 +1,72 @@
+/**
+ * @author Design & Accessible Team 02.05.2017 ( gordankem@gmail.com Игорь Кальдиков)
+ * @package -
+ * @subpackage -
+ * @copyright Copyright (C) 2005 - 2017 Open Source Matters. All rights reserved.
+ * @license GNU/GPL
+*/
+
+@charset "utf-8";
+@import "/css/reset.css";
+
+@font-face {
+	font-family: "HelveticaRegular";
+	src: url('../fonts/HelveticaRegular.ttf');
+}
+
+/*flexible media*/
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+
+html {
+	height: 100%;
+	font-size: 16px;
+}
+
+body {
+	margin: 0 auto;
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+	color: #1D67A4;
+}
+
+a:visited {
+    color: #90278E;
+}
+
+a:-webkit-any-link {
+	color: -webkit-link;
+    cursor: auto;
+}
+
+a:hover { 
+	color: #BD2026; 
+}
+
+#content {
+	margin-left:10%;
+	margin-right:10%;
+}
